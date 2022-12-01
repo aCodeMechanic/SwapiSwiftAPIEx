@@ -13,9 +13,20 @@
 		04B0F24328D0E0BC005D02FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B0F24128D0E0BC005D02FC /* Main.storyboard */; };
 		04B0F24528D0E0BD005D02FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B0F24428D0E0BD005D02FC /* Assets.xcassets */; };
 		04B0F24828D0E0BD005D02FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B0F24628D0E0BD005D02FC /* LaunchScreen.storyboard */; };
+		04B0F25428D0E676005D02FC /* ApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0F25328D0E676005D02FC /* ApiServices.swift */; };
+		04B0F25628D160BD005D02FC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0F25528D160BD005D02FC /* Constants.swift */; };
+		04B0F25A28D16F9C005D02FC /* PeopleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0F25928D16F9C005D02FC /* PeopleResponse.swift */; };
+		04B0F25D28D17627005D02FC /* CustomStarWarsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0F25C28D17627005D02FC /* CustomStarWarsCell.swift */; };
+		04B0F25F28D196B9005D02FC /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0F25E28D196B9005D02FC /* DetailsViewController.swift */; };
+		04B0F26128D1A053005D02FC /* PhysicalAttributesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0F26028D1A053005D02FC /* PhysicalAttributesModel.swift */; };
+		04B0F26328D1A249005D02FC /* CustomDetailsHorizontalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0F26228D1A249005D02FC /* CustomDetailsHorizontalCell.swift */; };
+		04B0F26528D1A26E005D02FC /* CustomDetailsVerticalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0F26428D1A26E005D02FC /* CustomDetailsVerticalCell.swift */; };
+		04B0F26728D1A866005D02FC /* FilmResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B0F26628D1A866005D02FC /* FilmResponse.swift */; };
+		D0F1842CA512570DA3955C7F /* Pods_SwapiSwiftMVC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CD7878CFA44951D079750B /* Pods_SwapiSwiftMVC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0403CCD82939352C00D75E4D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04B0F23828D0E0BC005D02FC /* SwapiSwiftMVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwapiSwiftMVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B0F23B28D0E0BC005D02FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04B0F23D28D0E0BC005D02FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,18 @@
 		04B0F24428D0E0BD005D02FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B0F24728D0E0BD005D02FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04B0F24928D0E0BD005D02FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B0F25328D0E676005D02FC /* ApiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
+		04B0F25528D160BD005D02FC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		04B0F25928D16F9C005D02FC /* PeopleResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleResponse.swift; sourceTree = "<group>"; };
+		04B0F25C28D17627005D02FC /* CustomStarWarsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStarWarsCell.swift; sourceTree = "<group>"; };
+		04B0F25E28D196B9005D02FC /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		04B0F26028D1A053005D02FC /* PhysicalAttributesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicalAttributesModel.swift; sourceTree = "<group>"; };
+		04B0F26228D1A249005D02FC /* CustomDetailsHorizontalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDetailsHorizontalCell.swift; sourceTree = "<group>"; };
+		04B0F26428D1A26E005D02FC /* CustomDetailsVerticalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDetailsVerticalCell.swift; sourceTree = "<group>"; };
+		04B0F26628D1A866005D02FC /* FilmResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmResponse.swift; sourceTree = "<group>"; };
+		20D358CB97A5F5D5EAAA76BE /* Pods-SwapiSwiftMVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwapiSwiftMVC.debug.xcconfig"; path = "Target Support Files/Pods-SwapiSwiftMVC/Pods-SwapiSwiftMVC.debug.xcconfig"; sourceTree = "<group>"; };
+		6ACA5C2AF1D847BD47A061B1 /* Pods-SwapiSwiftMVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwapiSwiftMVC.release.xcconfig"; path = "Target Support Files/Pods-SwapiSwiftMVC/Pods-SwapiSwiftMVC.release.xcconfig"; sourceTree = "<group>"; };
+		91CD7878CFA44951D079750B /* Pods_SwapiSwiftMVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwapiSwiftMVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F1842CA512570DA3955C7F /* Pods_SwapiSwiftMVC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +64,11 @@
 		04B0F22F28D0E0BC005D02FC = {
 			isa = PBXGroup;
 			children = (
+				0403CCD82939352C00D75E4D /* README.md */,
 				04B0F23A28D0E0BC005D02FC /* SwapiSwiftMVC */,
 				04B0F23928D0E0BC005D02FC /* Products */,
+				978049796F4BEB3AFB37D735 /* Pods */,
+				1AC3AE0B1D096C46FB1C849B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +83,73 @@
 		04B0F23A28D0E0BC005D02FC /* SwapiSwiftMVC */ = {
 			isa = PBXGroup;
 			children = (
+				04B0F25B28D17604005D02FC /* CustomCells */,
+				04B0F25228D0E64E005D02FC /* NetworkApis */,
+				04B0F25028D0E63B005D02FC /* Models */,
 				04B0F23B28D0E0BC005D02FC /* AppDelegate.swift */,
 				04B0F23D28D0E0BC005D02FC /* SceneDelegate.swift */,
-				04B0F23F28D0E0BC005D02FC /* ViewController.swift */,
+				04B0F24F28D0E5EF005D02FC /* ViewControllers */,
 				04B0F24128D0E0BC005D02FC /* Main.storyboard */,
 				04B0F24428D0E0BD005D02FC /* Assets.xcassets */,
 				04B0F24628D0E0BD005D02FC /* LaunchScreen.storyboard */,
 				04B0F24928D0E0BD005D02FC /* Info.plist */,
 			);
 			path = SwapiSwiftMVC;
+			sourceTree = "<group>";
+		};
+		04B0F24F28D0E5EF005D02FC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04B0F23F28D0E0BC005D02FC /* ViewController.swift */,
+				04B0F25E28D196B9005D02FC /* DetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04B0F25028D0E63B005D02FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04B0F25928D16F9C005D02FC /* PeopleResponse.swift */,
+				04B0F26028D1A053005D02FC /* PhysicalAttributesModel.swift */,
+				04B0F26628D1A866005D02FC /* FilmResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04B0F25228D0E64E005D02FC /* NetworkApis */ = {
+			isa = PBXGroup;
+			children = (
+				04B0F25328D0E676005D02FC /* ApiServices.swift */,
+				04B0F25528D160BD005D02FC /* Constants.swift */,
+			);
+			path = NetworkApis;
+			sourceTree = "<group>";
+		};
+		04B0F25B28D17604005D02FC /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				04B0F25C28D17627005D02FC /* CustomStarWarsCell.swift */,
+				04B0F26228D1A249005D02FC /* CustomDetailsHorizontalCell.swift */,
+				04B0F26428D1A26E005D02FC /* CustomDetailsVerticalCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		1AC3AE0B1D096C46FB1C849B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91CD7878CFA44951D079750B /* Pods_SwapiSwiftMVC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		978049796F4BEB3AFB37D735 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20D358CB97A5F5D5EAAA76BE /* Pods-SwapiSwiftMVC.debug.xcconfig */,
+				6ACA5C2AF1D847BD47A061B1 /* Pods-SwapiSwiftMVC.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04B0F24C28D0E0BD005D02FC /* Build configuration list for PBXNativeTarget "SwapiSwiftMVC" */;
 			buildPhases = (
+				7825A8E65EED15F49D914CBE /* [CP] Check Pods Manifest.lock */,
 				04B0F23428D0E0BC005D02FC /* Sources */,
 				04B0F23528D0E0BC005D02FC /* Frameworks */,
 				04B0F23628D0E0BC005D02FC /* Resources */,
+				3FADF3BBEABE928788241D31 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +220,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3FADF3BBEABE928788241D31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwapiSwiftMVC/Pods-SwapiSwiftMVC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwapiSwiftMVC/Pods-SwapiSwiftMVC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwapiSwiftMVC/Pods-SwapiSwiftMVC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7825A8E65EED15F49D914CBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwapiSwiftMVC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04B0F23428D0E0BC005D02FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B0F25628D160BD005D02FC /* Constants.swift in Sources */,
+				04B0F25A28D16F9C005D02FC /* PeopleResponse.swift in Sources */,
+				04B0F26528D1A26E005D02FC /* CustomDetailsVerticalCell.swift in Sources */,
 				04B0F24028D0E0BC005D02FC /* ViewController.swift in Sources */,
+				04B0F26728D1A866005D02FC /* FilmResponse.swift in Sources */,
+				04B0F25F28D196B9005D02FC /* DetailsViewController.swift in Sources */,
 				04B0F23C28D0E0BC005D02FC /* AppDelegate.swift in Sources */,
+				04B0F25D28D17627005D02FC /* CustomStarWarsCell.swift in Sources */,
+				04B0F25428D0E676005D02FC /* ApiServices.swift in Sources */,
 				04B0F23E28D0E0BC005D02FC /* SceneDelegate.swift in Sources */,
+				04B0F26128D1A053005D02FC /* PhysicalAttributesModel.swift in Sources */,
+				04B0F26328D1A249005D02FC /* CustomDetailsHorizontalCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +420,7 @@
 		};
 		04B0F24D28D0E0BD005D02FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20D358CB97A5F5D5EAAA76BE /* Pods-SwapiSwiftMVC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +448,7 @@
 		};
 		04B0F24E28D0E0BD005D02FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ACA5C2AF1D847BD47A061B1 /* Pods-SwapiSwiftMVC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
